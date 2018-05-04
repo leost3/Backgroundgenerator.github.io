@@ -1,0 +1,32 @@
+body {
+	background: linear-gradient(to right, red, yellow);
+	text-align: center;
+}
+
+input {
+	display: inline-block;
+	align-items: center;
+}
+h1 {
+	font-size: 3em;
+	font: "railway", sans-serif;
+	color: rgba(0,0,0,0.7);
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1em ;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	text-align: center;
+	color: rgba(0,0,0,0.7);
+}
+
+
+.gradient {
+	background-color: linear-gradient(to right, firstColor.value, secondColor.value);
+
+}
+
